@@ -1,0 +1,6 @@
+Note that the above code traverses only the vertices reachable from a given source vertex. All the vertices may not be reachable from a given vertex (example Disconnected graph). To print all the vertices, we can modify the BFS function to do traversal starting from all nodes one by one (Like the DFS modified version) .
+
+Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
+
+
+Link : http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
